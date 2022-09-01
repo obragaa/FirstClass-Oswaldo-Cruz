@@ -1,14 +1,19 @@
 .body, html {
     height: 100%;
+    margin: 0;
 }
 
-body{
+body {
     background-color: blue;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.div-pai-lateral-esq {
-    background-color:rgb(224, 193, 253);
-    height: 100%;
-    width: 250px;
+.div-header {
+    background-color:rgb(184, 184, 184);
+    height: 50vh;
+    width: 100%;
     color: rgb(255, 255, 255);
 }
