@@ -1,0 +1,14 @@
+.body, html {
+    height: 100%;
+}
+
+body{
+    background-color: blue;
+}
+
+.div-pai-lateral-esq {
+    background-color:rgb(224, 193, 253);
+    height: 100%;
+    width: 250px;
+    color: rgb(255, 255, 255);
+}
