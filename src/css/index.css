@@ -1,0 +1,17 @@
+.body, html {
+    height: 100%;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+}
+
+body {
+    margin:0;
+}
+
+.div-header {
+    background-color:rgb(35, 123, 182);
+    height: 10vh;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    padding: 0;
+}

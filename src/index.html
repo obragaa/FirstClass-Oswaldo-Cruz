@@ -1,15 +1,108 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FirstClass</title>
-    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    <link rel="stylesheet" type="text/css" href="./css/header.css" />
+    <link rel="stylesheet" type="text/css" href="./css/cards.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
 </head>
+
 <body>
-    <div class="div-header"></div>
-    <div class="div-main"></div>
-    <div class="div-footer"></div>
+    <!--Hey! This is the original version
+    of Simple CSS Waves-->
+    <!--Header-->
+    <div class="header">
+
+        <!--Content before waves-->
+        <div class="inner-header flex">
+            <div class="container-card">
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="icon">
+                                <i class="fa-solid fa-chart-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <h3>
+                                <a href="#" target="_blank" text-decoration="overline">Dashboard</a>
+                            </h3>
+                            <p>Menu de widgets do exoesqueleto</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="icon">
+                                <i class="fa-solid fa-people-group"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <h3>
+                                <a href="#" target="_blank" text-decoration="overline">Equipe FirstClass</a>
+                            </h3>
+                            <p>Clique para saber mais sobre a nossa equipe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <h3>
+                                <a href="#" target="_blank" text-decoration="overline">Contato</a>
+                            </h3>
+                            <p>Clique aqui para acessar os meios de contato da nossa equipe</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Waves Container-->
+        <div>
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                    <path id="gentle-wave"
+                        d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                    <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                </g>
+            </svg>
+        </div>
+        <!--Waves end-->
+
+    </div>
+
+
+    <div class="div-main">oi2</div>
+    <div class="div-footer">oi3</div>
+    <script src="https://kit.fontawesome.com/2cf094f614.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
