@@ -9,10 +9,6 @@ body {
     color: white;
 }
 
-.div-header {
-    background-color:rgb(35, 123, 182);
-    height: 10vh;
-    width: 100%;
-    color: #fff;
-    padding: 0;
+.button-back{
+    position: fixed;
 }

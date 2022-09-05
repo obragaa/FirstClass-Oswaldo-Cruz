@@ -1,0 +1,27 @@
+.body, html {
+    height: 100%;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+}
+
+body {
+    margin:0;
+    color: white;
+}
+
+.button-back{
+    position: fixed;
+}
+
+.container-dashboard1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.container-dashboard1-pizza{
+    position: relative;
+    height:17vh;
+    width:35vw;
+}
